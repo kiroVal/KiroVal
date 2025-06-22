@@ -8,8 +8,22 @@
 }
 .content-text h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 100px;
+  font-weight: 600;
+  font-size: 90px;
+  margin: 0;
+  line-height: 1.1;
+}
+.content-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 90px;
+  margin: 0;
+  line-height: 1.1;
+}
+.content-text h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 90px;
   margin: 0;
   line-height: 1.1;
 }
@@ -26,6 +40,7 @@
   object-fit: cover;
   border-radius: 50%;
   margin-right: 30px;
+  margin-left: 50px;
 }
 .content-text {
   flex: 1;
