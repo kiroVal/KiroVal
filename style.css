@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin-top: 40px;
   padding: 0 40px;
+  height: 500px;
 }
 .content-text h1,
 .content-text p {
@@ -20,4 +21,10 @@
 .content-text {
   flex: 1;
   padding-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  height: 100%; 
 }
