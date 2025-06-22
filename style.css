@@ -1,7 +1,9 @@
 .main-content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 40px;
+  padding: 0 40px;
 }
 .content-text h1,
 .content-text p {
@@ -17,4 +19,5 @@
 }
 .content-text {
   flex: 1;
+  padding-right: 20px;
 }
