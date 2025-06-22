@@ -11,6 +11,13 @@
     *{
         text-decoration: none;
     }
+    .main-content .side-image {
+      width: 450px;
+      height: 650px;
+      object-fit:contain;
+      border-radius: 10px;
+      transform: translate(-60px, -30px); 
+    }
     .navbar{
         background: #D9D9D9; 
         font-family: "Poppins", sans-serif; 
@@ -47,16 +54,25 @@
             </ul>
         </div>
     </nav>
-    <div class="main-content">
+      <div class="main-content">
         <div class="content-text">
-            <h1>About Me</h1>
-            <p>My name is Michael Patrick, but you can call me Pat for short. I’m a Third Year college student in Asia Pacific College, pursuing the course Computer Science.</p>
-            <h2>Hobbies</h2>
-            <p>I love watching anime and reading manga (typical Pinoy male). I play basketball—your average Pinoy guy. I enjoy cleaning, and I definitely love studying.</p>
-            <h3>Interests</h3>
-            <p>I enjoy playing basketball, watching anime, and reading manga in my free time.</p>
+              <h1>About Me</h1>
+              <p>My name is Michael Patrick, but you can call me Pat for short.I’m a Third Year college student in Asia Pacific College,</p>
+              <p> pursuing the course Computer Science.</p>
+              <h2>Hobbies</h2>
+              <p>I simply enjoy programming low-code systems. I mainly use Python, JavaScript, and PHP.</p>
+              <p>For web development, I use HTML, CSS, and PHP.</p>
+              <h3>Interests</h3>
+              <p>I enjoy playing basketball, watching anime, and reading manga in my free time.</p>
         </div> 
-        <img src="images/deathkid.png" alt="Left Side Image" class="side-image">
+        <div class="slider-container"></div>
+          <img class="slider-image" src="images/berserk.png" alt="Slider Image" style="display:block;">
+          <img class="slider-image" src="images/bleach.png" alt="Slider Image" style="display:block;">
+          <img class="slider-image" src="images/chainsaw.png" alt="Slider Image" style="display:block;">
+          <img class="slider-image" src="images/onepiece.png" alt="Slider Image" style="display:block;">
+          <img class="slider-image" src="images/sololeveling.png" alt="Slider Image" style="display:block;">
+          <img class="slider-image" src="images/soul.png" alt="Slider Image" style="display:block;">
+        </div>
     </div>
 </body>
 </html>
