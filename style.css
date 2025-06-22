@@ -12,6 +12,7 @@
   font-size: 90px;
   margin: 0;
   line-height: 1.1;
+  margin: 0 0 20px 0;
 }
 .content-text h2 {
   font-family: "Poppins", sans-serif;
@@ -19,6 +20,7 @@
   font-size: 90px;
   margin: 0;
   line-height: 1.1;
+  margin: 30px 0 15px 0;
 }
 .content-text h3 {
   font-family: "Poppins", sans-serif;
@@ -26,6 +28,7 @@
   font-size: 90px;
   margin: 0;
   line-height: 1.1;
+  margin: 30px 0 15px 0;
 }
 .content-text p {
   font-family: "Poppins", sans-serif;
@@ -33,6 +36,7 @@
   font-size: 18px;
   margin: 10px 0 0 0;
   text-align: justify;
+  line-height: 1.5;
 }
 .side-image {
   width: 500px;
@@ -50,4 +54,13 @@
   flex-direction: column;
   justify-content: center;  
   height: 100%; 
+}
+.navbar {
+  background: #D9D9D9; 
+    font-family: "Poppins", sans-serif; 
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 10px auto; 
+    max-width: 400px; 
+    width: fit-content; 
 }
