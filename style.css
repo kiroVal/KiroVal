@@ -1,0 +1,15 @@
+.main-content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.side-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.content-text {
+  flex: 1;
+}
