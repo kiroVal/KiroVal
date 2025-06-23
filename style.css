@@ -78,4 +78,14 @@ body {
   display: flex;
   align-items: center;
 }
-
+.navbar li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar li a {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 25px;
+  text-decoration: none;;
+}
