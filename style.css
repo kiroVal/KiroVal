@@ -63,7 +63,8 @@ body {
     padding: 20px 40px;
     border-radius: 5px;
     margin: 15px auto 25px auto; 
-    width: fit-content;   
+    width: 450px;   
+    height: 400px;
     display: block;
 }
 .navdiv {
@@ -93,4 +94,7 @@ body {
 }
 .navbar li:last-child a {
   margin-right: 0%;
+}
+html {
+  overflow-y: scroll;
 }
