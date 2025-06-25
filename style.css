@@ -80,7 +80,7 @@ body {
 @media screen and (max-width: 480px) {
   .main-content {
     padding: 0 15px;
-    margin-top: 15px;;
+    margin-top: 15px;
   }
   .content-text h1, .content-text h2, .content-text h3 {
     font-size: 35px;
@@ -90,8 +90,15 @@ body {
     line-height: 1.4;
   }
   .side-image {
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    min-width: 0;
+    border-radius: 10px;
+    margin-left: 0;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
   }
   .simple-links {
     margin: 15px 0 10px 0;
@@ -103,10 +110,11 @@ body {
   .simple-links a {
     font-size: 16px;
     margin: 5px;
-    padding: 10px 15px;
-    background-color: rgba(0, 0, 0, 0.05);
-}
+    background: none;
+    padding: 0;
+    border-radius: 0;
+  }
   .simple-links a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background: none;
   }
 }
